@@ -1,0 +1,51 @@
+.createGroupDetailsContainer {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.left {
+    margin-right: 5rem;
+    flex: 1;
+}
+
+.left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    flex-direction: column;
+    flex: 4;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row label {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ddd;
+    flex: 3;
+}
+
+.row input {
+    background: #46535e;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #ddd;
+    padding: 0.5rem;
+    flex: 5;
+}
+
+.row input::placeholder {
+    color: #ddd;
+}

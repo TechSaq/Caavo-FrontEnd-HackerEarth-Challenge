@@ -1,0 +1,17 @@
+.cta_wrapper button {
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+.btn_update {
+    background: green;
+    margin-right: 20px;
+}
+
+.btn_remove {
+    background: tomato;
+}
